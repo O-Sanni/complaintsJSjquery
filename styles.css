@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 239, 211);
+    background-image: url("2.png");
+    background-size: cover;
+}
+h1{
+    color:purple;
+    font-size: 39px;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: 300px;
+}
+h2{
+    color: rebeccapurple;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    margin-left: 300px;
+}
+#buttons{
+    margin-left: 300px;
+    
+}
+button{
+    color: rgb(78, 7, 119);
+    background-color: rgb(212, 146, 83);
+    font-size: 17px;
+}
+form{
+    margin-left:300px;
+}
+input{
+    color: rgb(78, 7, 119);
+    background-color: rgb(212, 146, 83);
+    font-size: 17px;
+    
+}
+h3{
+    color: rgb(6, 88, 10);
+    font-size: 25px;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: 300px;  
+}
+#complaint{
+    color: rgb(10, 39, 117);
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+    margin-left: 100px;
+
+}
+#resolv{
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+    color: rgb(160, 20, 113);
+    margin-left: 250px;
+}
+#complainAndResolution{
+display: flex;
+flex-direction: row;
+text-align: left;
+position: fixed;
+}
+#resolutionlist{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 150px;
+    margin-left: 350px;
+    position: fixed;
+}

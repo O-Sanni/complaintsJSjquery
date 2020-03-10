@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower&display=swap" rel="stylesheet">
+    <title>Dougie the Donut & Pizza Rat</title>
+</head>
+<body>
+    <h1>Check for which troubles you can get caught</h1>
+
+    <h2>Pleace choose borough, if you skip this step, different boroghs will be print out</h2>
+    <div id="buttons">
+        <button id="brooklyn" type="button" onclick="chooseBorough('BROOKLYN')">BROOKLYN</button>
+        <button id="manhattan" type="button" onclick="chooseBorough('MANHATTAN')">MANHATTAN</button>
+        <button id="queens" type="button" onclick="chooseBorough('QUEENS')">QUEENS</button>
+        <button id="statenIsland" type="button" onclick="chooseBorough('STATEN ISLAND')">STATEN ISLAND</button>
+        <button id="bronx" type="button" onclick="chooseBorough('BRONX')">BRONX</button> 
+    </div>
+    <h2>Please enter the number of incidence to show, if you leave it blank it would print 10 incidents</h2>
+    
+    <form>
+        <input type="text" placeholder="enter the number of requests">
+        <input type="submit">
+    </form> 
+    <div id="complainAndResolution">
+    <div id="complaintList">
+        <ol id="complaint"> </ol>
+    </div>
+    <div id="resolutionlist">
+        <h3>Resolution for the case was</h3>
+        <p id="resolv"></p>
+    
+    </div>
+</div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
